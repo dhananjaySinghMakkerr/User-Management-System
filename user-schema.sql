@@ -1,0 +1,3 @@
+CREATE TABLE `usermanagement`.`user` (`id` INT NOT NULL AUTO_INCREMENT , `first_name` VARCHAR(45) NOT NULL , `last_name` VARCHAR(45) NOT NULL , `email` VARCHAR(45) NOT NULL , `contact` VARCHAR(45) NOT NULL , `comments` TEXT NOT NULL , `status` VARCHAR(10) NOT NULL DEFAULT 'Active' , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+INSERT INTO `user` (`id`, `first_name`, `last_name`, `email`, `contact`, `comments`, `status`) VALUES ('1', 'Dhananjay', 'Singh', 'dhananjaysinghmakkerr@gmail.com', '+919858681681', 'Hey! I am Dhananjay!', 'Active');
